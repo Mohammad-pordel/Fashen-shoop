@@ -1,0 +1,19 @@
+
+@font-face {
+  font-family: Dana;
+  src: url('./../public/fonts/Dana/woff2/DanaFaNum-Medium.woff2');
+}
+
+body {
+  margin: 0;
+  font-family: 'Dana';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x:hidden;
+  
+}
+
+code {
+  font-family: 'Dana';
+
+}

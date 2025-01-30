@@ -1,0 +1,32 @@
+@keyframes border-animation {
+    0% {
+      border-top: 3px solid red;
+      border-right: 0;
+      border-bottom: 0;
+      border-left: 0;
+    }
+    50% {
+      border-top: 3px solid red;
+      border-right: 2px solid red;
+      border-bottom: 0;
+      border-left: 2px solid red;
+    }
+    100% {
+      border-top: 3px solid #e0324e;
+      border-right: 2px solid #e0324e;
+      border-bottom: 1px solid #e0324e;
+      border-left: 2px solid #e0324e;
+    }
+  }
+  
+  .product-card:hover {
+    animation: border-animation .7s linear forwards; 
+  }
+  .product-card img {
+    transition: transform 0.3s ease; 
+  }
+  
+  .product-card:hover img {
+    transform: scale(1.1); 
+  }
+  

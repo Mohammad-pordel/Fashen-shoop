@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'dana';
+    src: url('../../../public/fonts/Dana/woff2/DanaFaNum-DemiBold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+.toast-custom-error{
+    background-color:#da2f4e;
+    color:white;
+    direction: rtl;
+    font-family: dana;
+}
+.toast-custom-success{
+    background-color:green;
+    color:white;
+    direction: rtl;
+    font-family: dana;
+}

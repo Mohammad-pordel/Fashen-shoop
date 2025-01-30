@@ -1,0 +1,95 @@
+.products-table {
+    margin-top: 30px;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 20%;
+}
+
+.products-table-heading-tr {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px 0 460px;
+}
+
+.products-table-tr {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px 0 30px;
+}
+
+.products-table th {
+    padding: 20px;
+}
+
+.products-table td {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.products-table-img {
+    width: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.products-table-btn {
+    padding: 8px 20px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    color:white;
+    background-color:#6c48bb;
+    margin-right: 20px;
+    
+}
+
+
+/* Start Edit Modal Childs Style */
+.edit-proructs-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.edit-proructs-form-group {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    width: 45%;
+    background-color: #f4f4f4;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+.edit-product-input {
+    outline: none;
+    border: none;
+    background-color: unset;
+    font-size: 1rem;
+    width: 100%;
+    padding: 4px 5px;
+}
+
+.two-input{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.two-input > div{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    width: 48%;
+    background-color: #f4f4f4;
+    padding: 0 20px;
+    border-radius: 10px;
+
+}
+/* Finish Edit Modal Childs Style */

@@ -1,0 +1,32 @@
+.edit-modal-form {
+    width: 1000px;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 10vw;
+    background-color: white;
+    text-align: center;
+    margin-right: 20%;
+    background-color: #6c48bb;
+    color:rgb(0, 0, 0);
+    border-radius: 20px;
+    z-index: 10000;
+    overflow-y: auto;
+
+
+}
+
+.edit-modal-form h1 {
+    font-size: 1.2rem;
+}
+
+.edit-form-submit {
+    margin-top: 5px;
+    width: 100%;
+    padding: 8px 10px;
+    background-color:#008cff ;
+    color: white;
+    font-size: 1rem;
+
+}

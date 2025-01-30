@@ -1,0 +1,26 @@
+.text-modal {
+    width: 400px;
+    padding: 25px;
+    background-color: var(--white);
+    line-height: 25px;
+    text-align: justify;
+  }
+  
+  .text-modal-close-btn {
+    width: 100%;
+    padding: 10px 0;
+    background-color: var(--blue);
+    color: var(--white);
+    margin-top: 20px;
+    font-size: 1.1rem;
+  }
+  button{
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 5px 10px ;
+    border: none;
+    border-radius:5px !important;
+    margin-left: 5px !important;
+    font-size: 1.1rem !important;
+    min-width: 60px;
+  }
