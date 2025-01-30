@@ -1,0 +1,1798 @@
+{
+  "products": [
+    {
+      "id": "11001",
+      "img": "images/product/bot.webp",
+      "title": " نیم بوت مردانه ",
+      "price": 1453000,
+      "score": 4.1,
+      "category": "h-halfBoot",
+      "discount": 0,
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "stock": 8,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "xl",
+        "2xl"
+      ],
+      "feature": [
+        {
+          "title": "جنس",
+          "text": "پلی استر"
+        },
+        {
+          "title": "طرح",
+          "text": "ساده"
+        },
+        {
+          "title": "تنخور",
+          "text": "معمولی"
+        },
+        {
+          "title": "کیفیت",
+          "text": "خوب"
+        }
+      ],
+      "allImg": [
+        {
+          "id": 1,
+          "img": "images/product/bot.webp"
+        },
+        {
+          "id": 2,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 3,
+          "img": "images/product/bot.webp"
+        },
+        {
+          "id": 4,
+          "img": "images/product/hody1.webp"
+        }
+      ]
+    },
+    {
+      "id": "11003",
+      "img": "images/product/wbot1.webp",
+      "title": "نیم بوت زنانه",
+      "price": 920000,
+      "score": 4,
+      "category": "h-halfBoot",
+      "discount": 10,
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "stock": 8,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "xl",
+        "2xl"
+      ],
+      "feature": [
+        {
+          "title": "جنس",
+          "text": "پلی استر"
+        },
+        {
+          "title": "طرح",
+          "text": "ساده"
+        },
+        {
+          "title": "تنخور",
+          "text": "معمولی"
+        },
+        {
+          "title": "کیفیت",
+          "text": "خوب"
+        }
+      ],
+      "allImg": [
+        {
+          "id": 1,
+          "img": "images/product/wbot1.webp"
+        },
+        {
+          "id": 2,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 3,
+          "img": "images/product/wbot1.webp"
+        },
+        {
+          "id": 4,
+          "img": "images/product/hody1.webp"
+        }
+      ]
+    },
+    {
+      "title": "بوت زنانه",
+      "price": 5190000,
+      "count": 8,
+      "img": "images/product/wbot2.webp",
+      "allImg": [
+        {
+          "id": 1,
+          "img": "images/product/wbot2.webp"
+        },
+        {
+          "id": 2,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 3,
+          "img": "images/product/wbot2.webp"
+        },
+        {
+          "id": 4,
+          "img": "images/product/hody1.webp"
+        }
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "xl"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "feature": [
+        {
+          "title": "جنس",
+          "text": "پلی استر"
+        },
+        {
+          "title": "طرح",
+          "text": "ساده"
+        },
+        {
+          "title": "تنخور",
+          "text": "معمولی"
+        },
+        {
+          "title": "کیفیت",
+          "text": "خوب"
+        }
+      ],
+      "category": "h-halfBoot",
+      "stock": 8,
+      "discount": 12,
+      "score": 4.8,
+      "sale": 5190000,
+      "id": "11004"
+    },
+    {
+      "id": "11005",
+      "img": "images/product/wcot1.webp",
+      "title": "کت چرم زنانه",
+      "price": 18950000,
+      "score": 4.5,
+      "category": "woman-autumnwcoat",
+      "discount": 0,
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "stock": 8,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "xl",
+        "2xl"
+      ],
+      "feature": [
+        {
+          "title": "جنس",
+          "text": "پلی استر"
+        },
+        {
+          "title": "طرح",
+          "text": "ساده"
+        },
+        {
+          "title": "تنخور",
+          "text": "معمولی"
+        },
+        {
+          "title": "کیفیت",
+          "text": "خوب"
+        }
+      ],
+      "allImg": [
+        {
+          "id": 1,
+          "img": "images/product/wcot1.webp"
+        },
+        {
+          "id": 2,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 4,
+          "img": "images/product/wcot1.webp"
+        },
+        {
+          "id": 4,
+          "img": "images/product/hody1.webp"
+        }
+      ]
+    },
+    {
+      "title": " کت  زنانه الیانا",
+      "price": 888000,
+      "count": 8,
+      "img": "images/product/wcot2.webp",
+      "allImg": [
+        {
+          "id": 1,
+          "img": "images/product/wcot2.webp"
+        },
+        {
+          "id": 2,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 3,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 4,
+          "img": "images/product/hody1.webp"
+        }
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "xl"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "feature": [
+        {
+          "title": "جنس",
+          "text": "پلی استر"
+        },
+        {
+          "title": "طرح",
+          "text": "ساده"
+        },
+        {
+          "title": "تنخور",
+          "text": "معمولی"
+        },
+        {
+          "title": "کیفیت",
+          "text": "خوب"
+        }
+      ],
+      "category": "woman-autumnwcoat",
+      "stock": 8,
+      "discount": 5,
+      "score": 4.4,
+      "sale": 888000,
+      "id": "11006"
+    },
+    {
+      "id": "11007",
+      "img": "images/product/wpalto1.webp",
+      "title": "پالتو تدی زنانه",
+      "price": 751000,
+      "score": 3.2,
+      "category": "woman-autumnwcoat",
+      "discount": 5,
+      "color": [
+        "red",
+        "green",
+        "black"
+      ],
+      "stock": 8,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "xl",
+        "2xl"
+      ],
+      "feature": [
+        {
+          "title": "جنس",
+          "text": "پلی استر"
+        },
+        {
+          "title": "طرح",
+          "text": "ساده"
+        },
+        {
+          "title": "تنخور",
+          "text": "معمولی"
+        },
+        {
+          "title": "کیفیت",
+          "text": "خوب"
+        }
+      ],
+      "allImg": [
+        {
+          "id": 1,
+          "img": "images/product/wpalto1.webp"
+        },
+        {
+          "id": 2,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 3,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 4,
+          "img": "images/product/hody1.webp"
+        }
+      ]
+    },
+    {
+      "title": "هودی جهانگرد مردانه",
+      "price": 8950000,
+      "count": 8,
+      "img": "images/product/hody1.webp",
+      "allImg": [
+        {
+          "id": 1,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 2,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 3,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 4,
+          "img": "images/product/hody1.webp"
+        }
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "xl"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "feature": [
+        {
+          "title": "جنس",
+          "text": "پلی استر"
+        },
+        {
+          "title": "طرح",
+          "text": "ساده"
+        },
+        {
+          "title": "تنخور",
+          "text": "معمولی"
+        },
+        {
+          "title": "کیفیت",
+          "text": "خوب"
+        }
+      ],
+      "category": "man-autumnHody",
+      "stock": 8,
+      "discount": 5,
+      "score": 4.5,
+      "sale": 8950000,
+      "id": "11008"
+    },
+    {
+      "id": "11009",
+      "img": "images/product/hody3.webp",
+      "title": "هودی مردانه",
+      "price": 930000,
+      "score": 4.1,
+      "category": "man-autumnHody",
+      "discount": 0,
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "stock": 8,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "xl",
+        "2xl"
+      ],
+      "feature": [
+        {
+          "title": "جنس",
+          "text": "پلی استر"
+        },
+        {
+          "title": "طرح",
+          "text": "ساده"
+        },
+        {
+          "title": "تنخور",
+          "text": "معمولی"
+        },
+        {
+          "title": "کیفیت",
+          "text": "خوب"
+        }
+      ],
+      "allImg": [
+        {
+          "id": 1,
+          "img": "images/product/hody3.webp"
+        },
+        {
+          "id": 2,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 3,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 4,
+          "img": "images/product/hody1.webp"
+        }
+      ]
+    },
+    {
+      "id": "110010",
+      "img": "images/product/whody1.webp",
+      "title": "هودی زنانه",
+      "price": 560000,
+      "score": 4.2,
+      "category": "woman-autumnHody",
+      "discount": 11,
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "stock": 8,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "xl",
+        "2xl"
+      ],
+      "feature": [
+        {
+          "title": "جنس",
+          "text": "پلی استر"
+        },
+        {
+          "title": "طرح",
+          "text": "ساده"
+        },
+        {
+          "title": "تنخور",
+          "text": "معمولی"
+        },
+        {
+          "title": "کیفیت",
+          "text": "خوب"
+        }
+      ],
+      "allImg": [
+        {
+          "id": 1,
+          "img": "images/product/whody1.webp"
+        },
+        {
+          "id": 2,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 3,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 4,
+          "img": "images/product/hody1.webp"
+        }
+      ]
+    },
+    {
+      "id": "110011",
+      "img": "images/product/bag1.webp",
+      "title": "شلوار بگ",
+      "price": 190000,
+      "score": 4,
+      "category": "man-Menclothes",
+      "discount": 8,
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "stock": 8,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "xl",
+        "2xl"
+      ],
+      "feature": [
+        {
+          "title": "جنس",
+          "text": "پلی استر"
+        },
+        {
+          "title": "طرح",
+          "text": "ساده"
+        },
+        {
+          "title": "تنخور",
+          "text": "معمولی"
+        },
+        {
+          "title": "کیفیت",
+          "text": "خوب"
+        }
+      ],
+      "allImg": [
+        {
+          "id": 1,
+          "img": "images/product/bag1.webp"
+        },
+        {
+          "id": 2,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 3,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 4,
+          "img": "images/product/hody1.webp"
+        }
+      ]
+    },
+    {
+      "id": "110012",
+      "img": "images/product/manto-2.webp",
+      "title": " مانتو زنانه",
+      "price": 850000,
+      "score": 3,
+      "category": "woman-autumnHody",
+      "discount": 15,
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "stock": 8,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "xl",
+        "2xl"
+      ],
+      "feature": [
+        {
+          "title": "جنس",
+          "text": "پلی استر"
+        },
+        {
+          "title": "طرح",
+          "text": "ساده"
+        },
+        {
+          "title": "تنخور",
+          "text": "معمولی"
+        },
+        {
+          "title": "کیفیت",
+          "text": "خوب"
+        }
+      ],
+      "allImg": [
+        {
+          "id": 1,
+          "img": "images/product/manto-2.webp"
+        },
+        {
+          "id": 2,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 3,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 4,
+          "img": "images/product/hody1.webp"
+        }
+      ]
+    },
+    {
+      "id": "110013",
+      "img": "images/product/shal1.webp",
+      "title": "شال زنانه ",
+      "price": 1250000,
+      "score": 4.5,
+      "category": "woman-Scarf",
+      "discount": 0,
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "stock": 8,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "xl",
+        "2xl"
+      ],
+      "feature": [
+        {
+          "title": "جنس",
+          "text": "پلی استر"
+        },
+        {
+          "title": "طرح",
+          "text": "ساده"
+        },
+        {
+          "title": "تنخور",
+          "text": "معمولی"
+        },
+        {
+          "title": "کیفیت",
+          "text": "خوب"
+        }
+      ],
+      "allImg": [
+        {
+          "id": 1,
+          "img": "images/product/shal1.webp"
+        },
+        {
+          "id": 2,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 3,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 4,
+          "img": "images/product/hody1.webp"
+        }
+      ]
+    },
+    {
+      "id": "110014",
+      "img": "images/product/shal2.webp",
+      "title": "شال زنانه ",
+      "price": 920000,
+      "score": 4,
+      "category": "woman-Scarf",
+      "discount": 10,
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "stock": 8,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "xl",
+        "2xl"
+      ],
+      "feature": [
+        {
+          "title": "جنس",
+          "text": "پلی استر"
+        },
+        {
+          "title": "طرح",
+          "text": "ساده"
+        },
+        {
+          "title": "تنخور",
+          "text": "معمولی"
+        },
+        {
+          "title": "کیفیت",
+          "text": "خوب"
+        }
+      ],
+      "allImg": [
+        {
+          "id": 1,
+          "img": "images/product/shal2.webp"
+        },
+        {
+          "id": 2,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 3,
+          "img": "images/product/shal2.webp"
+        },
+        {
+          "id": 4,
+          "img": "images/product/hody1.webp"
+        }
+      ]
+    },
+    {
+      "id": "110015",
+      "img": "images/product/rosary1.webp",
+      "title": "روسری زنانه ",
+      "price": 920000,
+      "score": 4,
+      "category": "woman-Scarf",
+      "discount": 0,
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "stock": 8,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "xl",
+        "2xl"
+      ],
+      "feature": [
+        {
+          "title": "جنس",
+          "text": "پلی استر"
+        },
+        {
+          "title": "طرح",
+          "text": "ساده"
+        },
+        {
+          "title": "تنخور",
+          "text": "معمولی"
+        },
+        {
+          "title": "کیفیت",
+          "text": "خوب"
+        }
+      ],
+      "allImg": [
+        {
+          "id": 1,
+          "img": "images/product/rosary1.webp"
+        },
+        {
+          "id": 2,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 3,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 4,
+          "img": "images/product/hody1.webp"
+        }
+      ]
+    },
+    {
+      "id": "110016",
+      "img": "images/product/t-2.webp",
+      "title": " تیشرت ",
+      "price": 630000,
+      "score": 5,
+      "category": "man-tshert",
+      "discount": 15,
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "stock": 8,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "xl",
+        "2xl"
+      ],
+      "feature": [
+        {
+          "title": "جنس",
+          "text": "پلی استر"
+        },
+        {
+          "title": "طرح",
+          "text": "ساده"
+        },
+        {
+          "title": "تنخور",
+          "text": "معمولی"
+        },
+        {
+          "title": "کیفیت",
+          "text": "خوب"
+        }
+      ],
+      "allImg": [
+        {
+          "id": 1,
+          "img": "images/product/t-2.webp"
+        },
+        {
+          "id": 2,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 3,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 4,
+          "img": "images/product/hody1.webp"
+        }
+      ]
+    },
+    {
+      "id": "110017",
+      "img": "images/product/t-4.webp",
+      "title": " تیشرت ",
+      "price": 453000,
+      "score": 2,
+      "category": "man-tshert",
+      "discount": 15
+    },
+    {
+      "id": "110018",
+      "img": "images/product/pafer-3.webp",
+      "title": " پافر مردانه",
+      "price": 360000,
+      "score": 5,
+      "category": "man-autumnHody",
+      "discount": 15,
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "stock": 8,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "xl",
+        "2xl"
+      ],
+      "feature": [
+        {
+          "title": "جنس",
+          "text": "پلی استر"
+        },
+        {
+          "title": "طرح",
+          "text": "ساده"
+        },
+        {
+          "title": "تنخور",
+          "text": "معمولی"
+        },
+        {
+          "title": "کیفیت",
+          "text": "خوب"
+        }
+      ],
+      "allImg": [
+        {
+          "id": 1,
+          "img": "images/product/pafer-3.webp"
+        },
+        {
+          "id": 2,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 3,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 4,
+          "img": "images/product/hody1.webp"
+        }
+      ]
+    },
+    {
+      "id": "110019",
+      "img": "images/product/cot1.webp",
+      "title": "کت چرم مردانه",
+      "price": 45000000,
+      "score": 4.9,
+      "category": "man-coat",
+      "discount": 5,
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "stock": 8,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "xl",
+        "2xl"
+      ],
+      "feature": [
+        {
+          "title": "جنس",
+          "text": "پلی استر"
+        },
+        {
+          "title": "طرح",
+          "text": "ساده"
+        },
+        {
+          "title": "تنخور",
+          "text": "معمولی"
+        },
+        {
+          "title": "کیفیت",
+          "text": "خوب"
+        }
+      ],
+      "allImg": [
+        {
+          "id": 1,
+          "img": "images/product/cot1.webp"
+        },
+        {
+          "id": 2,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 3,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 4,
+          "img": "images/product/hody1.webp"
+        }
+      ]
+    },
+    {
+      "id": "110020",
+      "img": "images/product/capshan1.webp",
+      "title": "کاپشن مردانه",
+      "price": 1720000,
+      "score": 4.1,
+      "category": "man-coat",
+      "discount": 0,
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "stock": 8,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "xl",
+        "2xl"
+      ],
+      "feature": [
+        {
+          "title": "جنس",
+          "text": "پلی استر"
+        },
+        {
+          "title": "طرح",
+          "text": "ساده"
+        },
+        {
+          "title": "تنخور",
+          "text": "معمولی"
+        },
+        {
+          "title": "کیفیت",
+          "text": "خوب"
+        }
+      ],
+      "allImg": [
+        {
+          "id": 1,
+          "img": "images/product/capshan1.webp"
+        },
+        {
+          "id": 2,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 3,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 4,
+          "img": "images/product/hody1.webp"
+        }
+      ]
+    },
+    {
+      "id": "110021",
+      "img": "images/product/barany1.webp",
+      "title": "بارانی مردانه",
+      "price": 2640000,
+      "score": 3.9,
+      "category": "man-coat",
+      "discount": 15,
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "stock": 8,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "xl",
+        "2xl"
+      ],
+      "feature": [
+        {
+          "title": "جنس",
+          "text": "پلی استر"
+        },
+        {
+          "title": "طرح",
+          "text": "ساده"
+        },
+        {
+          "title": "تنخور",
+          "text": "معمولی"
+        },
+        {
+          "title": "کیفیت",
+          "text": "خوب"
+        }
+      ],
+      "allImg": [
+        {
+          "id": 1,
+          "img": "images/product/barany1.webp"
+        },
+        {
+          "id": 2,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 3,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 4,
+          "img": "images/product/hody1.webp"
+        }
+      ]
+    },
+    {
+      "id": "110022",
+      "img": "images/product/child1.webp",
+      "title": " سویشرت بچگانه",
+      "price": 372000,
+      "score": 4.1,
+      "category": "c-child",
+      "discount": 0,
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "stock": 8,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "xl",
+        "2xl"
+      ],
+      "feature": [
+        {
+          "title": "جنس",
+          "text": "پلی استر"
+        },
+        {
+          "title": "طرح",
+          "text": "ساده"
+        },
+        {
+          "title": "تنخور",
+          "text": "معمولی"
+        },
+        {
+          "title": "کیفیت",
+          "text": "خوب"
+        }
+      ],
+      "allImg": [
+        {
+          "id": 1,
+          "img": "images/product/child1.webp"
+        },
+        {
+          "id": 2,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 3,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 4,
+          "img": "images/product/hody1.webp"
+        }
+      ]
+    },
+    {
+      "id": "110023",
+      "img": "images/product/child2.webp",
+      "title": "شلوار اسلش دخترانه ",
+      "price": 242000,
+      "score": 4,
+      "category": "c-child",
+      "discount": 0,
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "stock": 8,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "xl",
+        "2xl"
+      ],
+      "feature": [
+        {
+          "title": "جنس",
+          "text": "پلی استر"
+        },
+        {
+          "title": "طرح",
+          "text": "ساده"
+        },
+        {
+          "title": "تنخور",
+          "text": "معمولی"
+        },
+        {
+          "title": "کیفیت",
+          "text": "خوب"
+        }
+      ],
+      "allImg": [
+        {
+          "id": 1,
+          "img": "images/product/child2.webp"
+        },
+        {
+          "id": 2,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 3,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 4,
+          "img": "images/product/hody1.webp"
+        }
+      ]
+    },
+    {
+      "id": "110024",
+      "img": "images/product/child3.webp",
+      "title": "کاپشن بچگانه",
+      "price": 1120000,
+      "score": 4.3,
+      "category": "c-child",
+      "discount": 0,
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "stock": 8,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "xl",
+        "2xl"
+      ],
+      "feature": [
+        {
+          "title": "جنس",
+          "text": "پلی استر"
+        },
+        {
+          "title": "طرح",
+          "text": "ساده"
+        },
+        {
+          "title": "تنخور",
+          "text": "معمولی"
+        },
+        {
+          "title": "کیفیت",
+          "text": "خوب"
+        }
+      ],
+      "allImg": [
+        {
+          "id": 1,
+          "img": "images/product/child3.webp"
+        },
+        {
+          "id": 2,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 3,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 4,
+          "img": "images/product/hody1.webp"
+        }
+      ]
+    },
+    {
+      "id": "110025",
+      "img": "images/product/wpoliver1.webp",
+      "title": "پلیور زنانه",
+      "price": 250000,
+      "score": 4.8,
+      "category": "woman-poliwer",
+      "discount": 5,
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "stock": 8,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "xl",
+        "2xl"
+      ],
+      "feature": [
+        {
+          "title": "جنس",
+          "text": "پلی استر"
+        },
+        {
+          "title": "طرح",
+          "text": "ساده"
+        },
+        {
+          "title": "تنخور",
+          "text": "معمولی"
+        },
+        {
+          "title": "کیفیت",
+          "text": "خوب"
+        }
+      ],
+      "allImg": [
+        {
+          "id": 1,
+          "img": "images/product/wpoliver1.webp"
+        },
+        {
+          "id": 2,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 3,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 4,
+          "img": "images/product/hody1.webp"
+        }
+      ]
+    },
+    {
+      "id": "110026",
+      "img": "images/product/wpoliwer2.webp",
+      "title": "پلیور زنانه",
+      "price": 480000,
+      "score": 4.5,
+      "category": "woman-poliwer",
+      "discount": 0,
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "stock": 8,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "xl",
+        "2xl"
+      ],
+      "feature": [
+        {
+          "title": "جنس",
+          "text": "پلی استر"
+        },
+        {
+          "title": "طرح",
+          "text": "ساده"
+        },
+        {
+          "title": "تنخور",
+          "text": "معمولی"
+        },
+        {
+          "title": "کیفیت",
+          "text": "خوب"
+        }
+      ],
+      "allImg": [
+        {
+          "id": 1,
+          "img": "images/product/wpoliwer2.webp"
+        },
+        {
+          "id": 2,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 3,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 4,
+          "img": "images/product/hody1.webp"
+        }
+      ]
+    },
+    {
+      "id": "110027",
+      "img": "images/product/poliwer1.webp",
+      "title": "پلیور مردانه",
+      "price": 852000,
+      "score": 4.7,
+      "category": "mam-poliwer",
+      "discount": 20,
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "stock": 8,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "xl",
+        "2xl"
+      ],
+      "feature": [
+        {
+          "title": "جنس",
+          "text": "پلی استر"
+        },
+        {
+          "title": "طرح",
+          "text": "ساده"
+        },
+        {
+          "title": "تنخور",
+          "text": "معمولی"
+        },
+        {
+          "title": "کیفیت",
+          "text": "خوب"
+        }
+      ],
+      "allImg": [
+        {
+          "id": 1,
+          "img": "images/product/poliwer1.webp"
+        },
+        {
+          "id": 2,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 3,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 4,
+          "img": "images/product/hody1.webp"
+        }
+      ]
+    },
+    {
+      "id": "110028",
+      "img": "images/product/poliwer2.webp",
+      "title": "پلیور مردانه",
+      "price": 562000,
+      "score": 4.5,
+      "category": "mam-poliwer",
+      "discount": 13,
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "stock": 8,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "xl",
+        "2xl"
+      ],
+      "feature": [
+        {
+          "title": "جنس",
+          "text": "پلی استر"
+        },
+        {
+          "title": "طرح",
+          "text": "ساده"
+        },
+        {
+          "title": "تنخور",
+          "text": "معمولی"
+        },
+        {
+          "title": "کیفیت",
+          "text": "خوب"
+        }
+      ],
+      "allImg": [
+        {
+          "id": 1,
+          "img": "images/product/poliwer2.webp"
+        },
+        {
+          "id": 2,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 3,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 4,
+          "img": "images/product/hody1.webp"
+        }
+      ]
+    },
+    {
+      "id": "110029",
+      "img": "images/product/f67361a7ff5c3640ce973dcc43842db3b33fe112_1614766331.webp",
+      "title": "ساعت مچی مردانه",
+      "price": 2562000,
+      "score": 4.5,
+      "category": "a-Accessory",
+      "discount": 18,
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "stock": 8,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "xl",
+        "2xl"
+      ],
+      "feature": [
+        {
+          "title": "جنس",
+          "text": "پلی استر"
+        },
+        {
+          "title": "طرح",
+          "text": "ساده"
+        },
+        {
+          "title": "تنخور",
+          "text": "معمولی"
+        },
+        {
+          "title": "کیفیت",
+          "text": "خوب"
+        }
+      ],
+      "allImg": [
+        {
+          "id": 1,
+          "img": "images/product/f67361a7ff5c3640ce973dcc43842db3b33fe112_1614766331.webp"
+        },
+        {
+          "id": 2,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 3,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 4,
+          "img": "images/product/hody1.webp"
+        }
+      ]
+    },
+    {
+      "id": "110030",
+      "img": "images/product/da7ad22de62c5a7e7f46bd97cb8c749b4d4ce60a_1720440996.webp",
+      "title": "عینک آفتابی زنانه",
+      "price": 92562000,
+      "score": 4.5,
+      "category": "a-Accessory",
+      "discount": 20,
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "stock": 8,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "xl",
+        "2xl"
+      ],
+      "feature": [
+        {
+          "title": "جنس",
+          "text": "پلی استر"
+        },
+        {
+          "title": "طرح",
+          "text": "ساده"
+        },
+        {
+          "title": "تنخور",
+          "text": "معمولی"
+        },
+        {
+          "title": "کیفیت",
+          "text": "خوب"
+        }
+      ],
+      "allImg": [
+        {
+          "id": 1,
+          "img": "images/product/da7ad22de62c5a7e7f46bd97cb8c749b4d4ce60a_1720440996.webp"
+        },
+        {
+          "id": 2,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 3,
+          "img": "images/product/hody1.webp"
+        },
+        {
+          "id": 4,
+          "img": "images/product/hody1.webp"
+        }
+      ]
+    },
+    {
+      "title": "کاپشن چرم ترک",
+      "price": "3256000",
+      "count": "4",
+      "img": "images/product/capshencharm1.webp",
+      "allImg": [
+        {
+          "id": 1,
+          "img": "images/product/capshencharm1.webp"
+        },
+        {
+          "id": 2,
+          "img": "images/product/capshencharm2.webp"
+        },
+        {
+          "id": 3,
+          "img": "images/product/capshencharm3.webp"
+        },
+        {
+          "id": 4,
+          "img": "images/product/capshencharm2.webp"
+        }
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "blue",
+        "black"
+      ],
+      "feature": [
+        {
+          "title": "دوخت",
+          "text": "ترکیه"
+        },
+        {
+          "title": "جنس",
+          "text": "چرم"
+        },
+        {
+          "title": "قابلیت",
+          "text": "ضد آب"
+        },
+        {
+          "title": "تنخور",
+          "text": "عالی"
+        }
+      ],
+      "category": "man-coat",
+      "stock": "4",
+      "discount": "10",
+      "score": "4.6",
+      "sale": "3256000",
+      "id": "b0d7"
+    }
+  ],
+  "covereSlider": [
+    {
+      "id": "1",
+      "img": "images/slider/a991af161471de8ada5e02a517c7ac67738d5123_1728721336.webp",
+      "category": "woman-poliwer"
+    },
+    {
+      "id": "2",
+      "img": "images/slider/67106f26611f369ce5d2507a3cd68e3f0bd15d1e_1729665662.webp",
+      "category": "man-autumnHody"
+    },
+    {
+      "id": "3",
+      "img": "images/slider/ab85fc5def1cf770f8f0c26e9b389718797dcd0b_1728723227.webp",
+      "category": "woman-Scarf"
+    },
+    {
+      "id": "4",
+      "img": "images/slider/75c325de1b6ea545cd746120ba3d6327fcc4e37f_1728721297.webp",
+      "category": "man-coat"
+    },
+    {
+      "id": "5",
+      "img": "images/slider/b1d5584cd6a92dc9e39d1f61bc492129be4cee2f_1728721198.webp",
+      "category": "h-halfBoot"
+    }
+  ],
+  "fourecovereHome": [
+    {
+      "id": "1",
+      "img": "images/30b4fb3cd9acc7fb7de8e3455414bdbcc64c104b_1728725970.webp",
+      "category": "mam-poliwer"
+    },
+    {
+      "id": "2",
+      "img": "images/1111img.webp",
+      "category": "woman-poliwer"
+    },
+    {
+      "id": "3",
+      "img": "images/2424e506711faaf7a52b2094b07e7caaa40ea50d_1728724705.webp",
+      "category": "h-halfBoot"
+    },
+    {
+      "id": "4",
+      "img": "images/c76d37f1f3a5a5722e9adcc58755389907cbf3f7_1728724657.webp",
+      "category": "h-halfBoot"
+    }
+  ],
+  "suggestedCategory": [
+    {
+      "id": "1",
+      "img": "images/454b0aefaf7446431d7ee24da0f71becf42616d2_1728723567.webp",
+      "title": "پوشاک مردانه",
+      "category": "man"
+    },
+    {
+      "id": "2",
+      "img": "images/2da28006e96235e2d65857197fbaccd35d2e7c97_1728723567.webp",
+      "title": "پوشاک زنانه",
+      "category": "woman"
+    },
+    {
+      "id": "3",
+      "img": "images/911ccda023f01fd398c6c62cf3ab93d11c9db614_1728723566.webp",
+      "title": "پوشاک بچگانه",
+      "category": "c-child"
+    },
+    {
+      "id": "4",
+      "img": "images/93201f407b609007c57bfa3880586894249c0ce4_1728723566.webp",
+      "title": "اکسسوری و... ",
+      "category": "a-Accessory"
+    }
+  ],
+  "card": [
+    {
+      "id": "5acb",
+      "title": "هودی زنانه",
+      "price": 560000,
+      "discount": 11,
+      "img": "images/product/whody1.webp",
+      "code": "110010",
+      "color": "green",
+      "size": "xl",
+      "count": 2
+    },
+    {
+      "id": "0776",
+      "title": "کاپشن چرم ترک",
+      "price": "3256000",
+      "discount": "10",
+      "img": "images/product/9a1a21be81e13cf212a03cd104bd8a9ed62dc643_1732027784.webp",
+      "code": "b0d7",
+      "color": "black",
+      "size": "L",
+      "count": 1
+    }
+  ]
+}
