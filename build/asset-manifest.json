@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d958276f.css",
+    "main.js": "/static/js/main.01bef25c.js",
+    "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
+    "static/media/DanaFaNum-DemiBold.woff2": "/static/media/DanaFaNum-DemiBold.606ee4ede1f9de62b0bc.woff2",
+    "static/media/DanaFaNum-Medium.woff2": "/static/media/DanaFaNum-Medium.3c7fcbd8ab0682219f68.woff2",
+    "index.html": "/index.html",
+    "main.d958276f.css.map": "/static/css/main.d958276f.css.map",
+    "main.01bef25c.js.map": "/static/js/main.01bef25c.js.map",
+    "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d958276f.css",
+    "static/js/main.01bef25c.js"
+  ]
+}
