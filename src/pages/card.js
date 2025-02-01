@@ -172,7 +172,7 @@ export default function Card() {
                                     <AddIcon fontSize="inherit" color="primary" />
                                   </IconButton>
                                 </div>
-                                <h1 className='text-xl mt-4'>{product.count}</h1>
+                                <h1 className='text-xl mt-2'>{product.count}</h1>
                                 <div className='flex justify-center align-top -mt-3 '>
                                   <IconButton aria-label="minus" size="large" onClick={() => minusCount(product.id)}>
                                     <MinimizeIcon fontSize="inherit" color="primary" />
@@ -192,7 +192,8 @@ export default function Card() {
                               <ul className='mt-6'>
                                 <li className='flex align-middle mb-3'>
                                   <ColorLensIcon />
-                                  <div style={{ backgroundColor: product.color }} className='w-10 h-5 rounded-sm mr-2'></div>                      </li>
+                                  <div style={{ backgroundColor: product.color }} className='w-10 h-5 rounded-sm mr-2'></div>
+                                </li>
                                 <li className='flex align-middle mb-3'>
                                   <StraightenIcon />
                                   <span className='text-sm md:text-base mr-2'>{product.size}</span>
