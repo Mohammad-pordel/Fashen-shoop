@@ -38,9 +38,9 @@ export default function App() {
     <>
       {isTabletMobile && (
         <div className='px-4 pt-3 overflow-hidden bg-[#e0324e] '>
-          <div className='flex flex-row justify-start align-middle'>
+          <div className='flex flex-row justify-start align-baseline'>
             <img className='w-14' src="./images/box.webp" alt="" />
-            <span className='font-MorabbaBold text-xl  mt-2'>پیشنهاد شگفت انگیز</span>
+            <span className='font-MorabbaBold text-xl  mt-4 mr-2'>پیشنهاد شگفت انگیز</span>
           </div>
         </div>
       )}
@@ -86,7 +86,7 @@ export default function App() {
         >
           {isDesktop && (
             <SwiperSlide >
-              <div className='w-0 md:w-full md:h-72 p-5 flex flex-col align-middle justify-evenly bg-[#e0324e]'>
+              <div className='w-0 md:w-full md:h-72 p-5 flex flex-col align-baseline justify-evenly bg-[#e0324e]'>
                 <span className='font-MorabbaBold text-sm md:text-xl'>پیشنهاد شگفت انگیز</span>
                 <span className='font-MorabbaMedium text-sm md:text-base'>فقط به مدت 7 روز</span>
                 <h1 className='flex justify-center align-middle'>

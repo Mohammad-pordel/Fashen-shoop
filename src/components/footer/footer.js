@@ -33,13 +33,13 @@ export default function Footer() {
                     </div>
                 </div>
 
-                <div className={`bg-[#064568] text-white  mt-8 rounded-xl overflow-hidden transition-all duration-700 relative py-10 pb-5 ${isLong ? "h-[460vw]  md:h-[200vw] lg:h-[180vw] xl:h-[85vw] 2xl:h-[55vw]" : "h-[51vw] md:h-[21vw] befortext"} `}>
+                <div className={`bg-[#064568] text-white  mt-8 rounded-xl overflow-hidden transition-all duration-700 relative py-10 pb-5 ${isLong ? "h-[540vw]  md:h-[200vw] lg:h-[180vw] xl:h-[85vw] 2xl:h-[55vw]" : "h-[51vw] md:h-[21vw] befortext"} `}>
 
                     <div className="flex flex-col space-y-8 px-5">
                         {isLong ? (
-                            <div className="flex flex-col space-y-8 px-5">
+                            <div className="flex flex-col space-y-8  px-2 md:px-5">
                                 <div className="space-y-4">
-                                    <h2 className="text-lg md:text-2xl text-[#da2f4e] ">به دنیای مد و فشن خوش آمدید!</h2>
+                                    <h2 className="text-base md:text-lg text-[#da2f4e] ">به دنیای مد و فشن خوش آمدید!</h2>
                                     <p className="text-base md:text-lg text-justify leading-relaxed">
                                         استایل و پوشاک، بخش بسیار مهمی از هویت و شخصیت هر فرد است. با استفاده از لباس‌های مناسب و دوست‌داشتنی، می‌توانیم به‌راحتی احساس بهتری درباره خود داشته باشیم و اعتماد به نفس بیشتری کسب کنیم. انتخاب پوشاک مناسب نه تنها به ظاهر ما کمک می‌کند، بلکه به شخصیت و از ویژگی‌های منحصربه‌فرد ما نیز تأثیر می‌گذارد.
 

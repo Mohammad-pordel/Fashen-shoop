@@ -82,7 +82,7 @@ export default function AddNewProduct({ getAllProducts }) {
             console.log("Error adding todo",error);
           }else{
             console.log(data);
-            
+            getAllProducts()
           }
 
 

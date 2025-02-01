@@ -7,6 +7,7 @@ import { AiOutlineDollarCircle } from "react-icons/ai";
 import ErrorBox from "../Errorbox/Errorbox";
 import showToast from '../../../components/toastify/toastify';
 import { ToastContainer } from 'react-toastify';
+import supabase from "../../../supabase-client";
 
 
 
@@ -64,18 +65,20 @@ export default function ProductsTable({ getAllProducts, allProducts }) {
     setIsShowDeleteModal(false);
   };
 
-  const deleteModalSubmitAction = () => {
+  const deleteModalSubmitAction = async () => {
     console.log("مدال تایید شد");
-    console.log(productID);
+    const { data, error } = await supabase
+      .from('products')
+      .delete()
+      .eq('id', productID);
 
-    fetch(`http://localhost:4000/products/${productID}`, {
-      method: "DELETE",
-    })
-      .then((res) => res.json())
-      .then((result) => {
-        setIsShowDeleteModal(false);
-        getAllProducts();
-      });
+    if (error) {
+      console.error('Error deleting product:', error);
+    } else {
+      console.log('Product deleted:', data);
+      setIsShowDeleteModal(false);
+      getAllProducts();
+    }
   };
 
   const closeDetailsmodal = () => {
@@ -83,7 +86,7 @@ export default function ProductsTable({ getAllProducts, allProducts }) {
     console.log("مدال جزییات بسته شد");
   };
 
-  const updateProductInfos = (event) => {
+  const updateProductInfos = async (event) => {
     event.preventDefault();
 
 
@@ -122,18 +125,17 @@ export default function ProductsTable({ getAllProducts, allProducts }) {
       sale: productNewSale,
     }
 
-    fetch(`http://localhost:4000/products/${productID}`, {
-      method: 'PUT',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify(productsNewInfos)
-    }).then(res => res.json())
-      .then(result => {
-        console.log(result);
-        getAllProducts()
-        setIsShowEditModal(false)
-      })
+    const { data, error } = await supabase
+      .from('products')
+      .update(productsNewInfos)
+      .eq('id', productID);
+    if (error) {
+      console.error('Error updating product count:', error);
+    } else {
+      console.log('Product count updated:', data);
+      getAllProducts()
+      setIsShowEditModal(false)
+    }
 
   };
 
@@ -153,23 +155,23 @@ export default function ProductsTable({ getAllProducts, allProducts }) {
 
           <tbody>
             {allProducts.map((product) => (
-              <tr key={product[1].id} className="products-table-tr">
+              <tr key={product.id} className="products-table-tr">
                 <td>
                   <img
-                    src={`./${product[1].img}`}
+                    src={`./${product.img}`}
                     alt="oil image"
                     className="products-table-img"
                   />
                 </td>
-                <td>{product[1].title}</td>
-                <td>{product[1].price} تومان</td>
-                <td>{product[1].stock}</td>
+                <td>{product.title}</td>
+                <td>{product.price} تومان</td>
+                <td>{product.stock}</td>
                 <td>
                   <button
                     className="products-table-btn"
                     onClick={() => {
                       setIsShowDetailsModal(true);
-                      setMainProductInfos(product[1]);
+                      setMainProductInfos(product);
                     }}
                   >
                     جزییات
@@ -178,7 +180,7 @@ export default function ProductsTable({ getAllProducts, allProducts }) {
                     className="products-table-btn"
                     onClick={() => {
                       setIsShowDeleteModal(true);
-                      setProductID(product[1].id);
+                      setProductID(product.id);
                     }}
                   >
                     حذف
@@ -187,34 +189,34 @@ export default function ProductsTable({ getAllProducts, allProducts }) {
                     className="products-table-btn"
                     onClick={() => {
                       setIsShowEditModal(true);
-                      setProductID(product[1].id)
-                      setProductNewTitle(product[1].title)
-                      setProductNewPrice(product[1].price)
-                      setProductNewCount(product[1].stock)
-                      setProductNewImg(product[1].img)
-                      setProductNewImg1(product[1].allImg[0].img)
-                      setProductNewImg2(product[1].allImg[1].img)
-                      setProductNewImg3(product[1].allImg[2].img)
-                      setProductNewImg4(product[1].allImg[3].img)
-                      setProductNewPopularity(product[1].score)
-                      setProductNewSale(product[1].price)
-                      setProductNewColors1(product[1].color[0])
-                      setProductNewColors2(product[1].color[1])
-                      setProductNewColors3(product[1].color[2])
-                      setProductNewCategory(product[1].category)
-                      setProductNewDiscount(product[1].discount)
-                      setProductNewSize1(product[1].size[0])
-                      setProductNewSize2(product[1].size[1])
-                      setProductNewSize3(product[1].size[2])
-                      setProductNewSize4(product[1].size[3])
-                      setProductNewKey1(product[1].feature[0].title)
-                      setProductNewKey2(product[1].feature[1].title)
-                      setProductNewKey3(product[1].feature[2].title)
-                      setProductNewKey4(product[1].feature[3].title)
-                      setProductproperty1(product[1].feature[0].text)
-                      setProductproperty2(product[1].feature[1].text)
-                      setProductproperty3(product[1].feature[2].text)
-                      setProductproperty4(product[1].feature[3].text)
+                      setProductID(product.id)
+                      setProductNewTitle(product.title)
+                      setProductNewPrice(product.price)
+                      setProductNewCount(product.stock)
+                      setProductNewImg(product.img)
+                      setProductNewImg1(product.allImg[0].img)
+                      setProductNewImg2(product.allImg[1].img)
+                      setProductNewImg3(product.allImg[2].img)
+                      setProductNewImg4(product.allImg[3].img)
+                      setProductNewPopularity(product.score)
+                      setProductNewSale(product.price)
+                      setProductNewColors1(product.color[0])
+                      setProductNewColors2(product.color[1])
+                      setProductNewColors3(product.color[2])
+                      setProductNewCategory(product.category)
+                      setProductNewDiscount(product.discount)
+                      setProductNewSize1(product.size[0])
+                      setProductNewSize2(product.size[1])
+                      setProductNewSize3(product.size[2])
+                      setProductNewSize4(product.size[3])
+                      setProductNewKey1(product.feature[0].title)
+                      setProductNewKey2(product.feature[1].title)
+                      setProductNewKey3(product.feature[2].title)
+                      setProductNewKey4(product.feature[3].title)
+                      setProductproperty1(product.feature[0].text)
+                      setProductproperty2(product.feature[1].text)
+                      setProductproperty3(product.feature[2].text)
+                      setProductproperty4(product.feature[3].text)
                     }}
                   >
                     ویرایش
@@ -249,9 +251,9 @@ export default function ProductsTable({ getAllProducts, allProducts }) {
 
             <tbody>
               <tr>
-                <td>{mainProductInfos.popularity}</td>
+                <td>{mainProductInfos.score}</td>
                 <td>{mainProductInfos.sale}</td>
-                <td>{mainProductInfos.colors}</td>
+                <td>{mainProductInfos.color}</td>
               </tr>
             </tbody>
           </table>

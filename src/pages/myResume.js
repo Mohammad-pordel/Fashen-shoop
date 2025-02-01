@@ -20,7 +20,7 @@ export default function myResume() {
                     <h1 className='font-MorabbaLight text-base md:text-2xl mr-4'>  دانلود فایل رزومه من:</h1>
                     <button
                         onClick={handleDownload}
-                        className="w-44 px-4 py-2 bg-blue-600 text-white rounded-lg shadow-lg hover:bg-blue-500 transition duration-300 ease-in-out"
+                        className="w-32 md:w-44 px-4 py-2 text-sm md:text-lg bg-blue-600 text-white rounded-lg shadow-lg hover:bg-blue-500 transition duration-300 ease-in-out"
                     >
                         دانلود فایل
                     </button>

@@ -84,9 +84,9 @@ export default function Navbar() {
             <div>
               <h1 className='  lg:text-2xl px-3 lg:px-7 text-black font-MorabbaBold  '>فشن شاپ</h1>
             </div>
-            <div className='relative'>
+            <div className='relative flex align-middle justify-between'>
               <input type="text" placeholder='محصول مورد نظر را جستجو کنید' className='w-52 h-7 px-3 text-xs absolute left-3 transition-all  lg:flex lg:w-80 lg:h-9  lg:p-3 lg:text-base lg:px-4 rounded-md border-gray-300  border-2 font-DanaDemiBold ' />
-              <div className='absolute left-3 -top-1 lg:top-0'>
+              <div className='absolute left-0 -top-1 lg:top-0'>
                 <IconButton aria-label="search" >
                   <SearchIcon color='primary' />
                 </IconButton>
