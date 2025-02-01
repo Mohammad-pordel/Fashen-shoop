@@ -33,7 +33,7 @@ export default function Footer() {
                     </div>
                 </div>
 
-                <div className={`bg-[#064568] text-white  mt-8 rounded-xl overflow-hidden transition-all duration-700 relative py-10 pb-5 ${isLong ? "h-[540vw]  md:h-[200vw] lg:h-[180vw] xl:h-[85vw] 2xl:h-[55vw]" : "h-[51vw] md:h-[21vw] befortext"} `}>
+                <div className={`bg-[#064568] text-white  mt-8 rounded-xl overflow-hidden transition-all duration-700 relative py-10 pb-5 ${isLong ? "h-[520vw]  md:h-[200vw] lg:h-[180vw] xl:h-[85vw] 2xl:h-[55vw]" : "h-[51vw] md:h-[21vw] befortext"} `}>
 
                     <div className="flex flex-col space-y-8 px-5">
                         {isLong ? (

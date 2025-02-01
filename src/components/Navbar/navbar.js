@@ -86,7 +86,7 @@ export default function Navbar() {
             </div>
             <div className='relative flex align-middle justify-between'>
               <input type="text" placeholder='محصول مورد نظر را جستجو کنید' className='w-52 h-7 px-3 text-xs absolute left-3 transition-all  lg:flex lg:w-80 lg:h-9  lg:p-3 lg:text-base lg:px-4 rounded-md border-gray-300  border-2 font-DanaDemiBold ' />
-              <div className='absolute left-0 -top-1 lg:top-0'>
+              <div className='absolute -left-2 -top-1 lg:top-0'>
                 <IconButton aria-label="search" >
                   <SearchIcon color='primary' />
                 </IconButton>
