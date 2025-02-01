@@ -6,10 +6,10 @@
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
     "@mui/icons-material": "^6.1.4",
+    "@supabase/supabase-js": "^2.48.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "json-server": "^1.0.0-beta.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icon": "^1.0.0",
@@ -29,8 +29,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "runtil": "npx tailwindcss -i ./src/input.css -o ./public/main.css --watch",
-    "startdb": "json-server -w db.json -p 4000"
+    "runtil": "npx tailwindcss -i ./src/input.css -o ./public/main.css --watch"
   },
   "eslintConfig": {
     "extends": [

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './AddNewProduct.css'
 import { AiOutlineDollarCircle } from "react-icons/ai";
+import supabase from '../../../supabase-client';
 
 
 export default function AddNewProduct({ getAllProducts }) {
@@ -33,56 +34,60 @@ export default function AddNewProduct({ getAllProducts }) {
   const [productNewproperty3, setProductproperty3] = useState('');
   const [productNewproperty4, setProductproperty4] = useState('');
 
-  const newProductsInfos = {
-    title: productNewTitle,
-    price: productNewPrice,
-    count: productNewCount,
-    img: productNewImg,
-    allImg: [
-      { id: 1, img: productNewImg1 },
-      { id: 2, img: productNewImg2 },
-      { id: 3, img: productNewImg3 },
-      { id: 4, img: productNewImg4 }
-    ],
-    size: [
-      `${productNewSize1}`,
-      `${productNewSize2}`,
-      `${productNewSize3}`,
-      `${productNewSize4}`
-    ],
-    color: [
-      `${productNewColors1}`,
-      `${productNewColors2}`,
-      `${productNewColors3}`
-    ],
-    feature: [
-      { title: `${productNewKey1}`, text: `${productNewproperty1}` },
-      { title: `${productNewKey2}`, text: `${productNewproperty2}` },
-      { title: `${productNewKey3}`, text: `${productNewproperty3}` },
-      { title: `${productNewKey4}`, text: `${productNewproperty4}` }
-    ],
-    category:productNewCategory,
-    stock:productNewCount,
-    discount:productNewDiscount,
-    score: productNewPopularity,
-    sale: productNewSale,
-  }
 
-    const addNewProduct = (event) => {
-
+    const addNewProduct = async(event) => {
         event.preventDefault()
 
-        fetch(`http://localhost:4000/products`, {
-            method: 'Post',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(newProductsInfos)
-        }).then(res => res.json())
-            .then(result => {
-                console.log(result);
-                getAllProducts()
-            })
+        const newProductsInfos = {
+            title: productNewTitle,
+            price: productNewPrice,
+            count: productNewCount,
+            img: productNewImg,
+            allImg: [
+              { id: 1, img: productNewImg1 },
+              { id: 2, img: productNewImg2 },
+              { id: 3, img: productNewImg3 },
+              { id: 4, img: productNewImg4 }
+            ],
+            size: [
+              `${productNewSize1}`,
+              `${productNewSize2}`,
+              `${productNewSize3}`,
+              `${productNewSize4}`
+            ],
+            color: [
+              `${productNewColors1}`,
+              `${productNewColors2}`,
+              `${productNewColors3}`
+            ],
+            feature:[
+              { title: `${productNewKey1}`, text: `${productNewproperty1}` },
+              { title: `${productNewKey2}`, text: `${productNewproperty2}` },
+              { title: `${productNewKey3}`, text: `${productNewproperty3}` },
+              { title: `${productNewKey4}`, text: `${productNewproperty4}` }
+            ],
+            category:productNewCategory,
+            stock:productNewCount,
+            discount:productNewDiscount,
+            score: productNewPopularity,
+            sale: productNewSale,
+          }
+
+          const{data,error}=await supabase
+          .from("products")
+          .insert([newProductsInfos])
+          .single();
+
+          if(error){
+            console.log("Error adding todo",error);
+          }else{
+            console.log(data);
+            
+          }
+
+
+
+
     }
 
     return (

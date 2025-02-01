@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 import ReactPaginate from 'react-paginate';
 import 'tailwindcss/tailwind.css';
 import Stars from './../stars/stars'
-import './App.css'; 
+import './App.css';
+import supabase from '../../supabase-client';
 
 export default function ProductsHome() {
     const [allproduct, setAllProducts] = useState([]);
@@ -11,18 +12,26 @@ export default function ProductsHome() {
     const itemsPerPage = 6;
 
     useEffect(() => {
-        fetch('http://localhost:4000/products')
-            .then(res => res.json())
-            .then(data => {
-                setAllProducts(Object.entries(data).slice(0,12));
-            });
+        getProducts()
     }, []);
+
+    const getProducts = async () => {
+        const { data, error } = await supabase.from("products").select("*");
+        if (error) {
+            console.log("Error fetching", error);
+        } else {
+            setAllProducts(data.slice(0, 12))
+            console.log(data);
+        }
+    }
 
     const offset = currentPage * itemsPerPage;
     const currentItems = allproduct.slice(offset, offset + itemsPerPage);
     const pageCount = Math.ceil(allproduct.length / itemsPerPage);
 
-    const handlePageClick = ({ selected }) => {        
+    const handlePageClick = ({ selected }) => {
+        console.log(selected);
+
         setCurrentPage(selected);
     };
 
@@ -31,7 +40,7 @@ export default function ProductsHome() {
             <div className='w-[95%] mt-10 flex flex-col align-middle bg-[#e5e7eb] rounded-3xl'>
                 <div className='flex justify-between align-middle px-3 md:px-10 mt-10 mb-5'>
                     <h1 className='font-DanaDemiBold text-base md:text-lg'>جدیدترین های فشن شاپ</h1>
-                    <Link  to={`/products/all`}>
+                    <Link to={`/products/all`}>
                         <div className='group flex align-middle -mt-2 p-2 hover:text-[#da2f4e] bg-[#e5e7eb] rounded-md text-center'>
                             <h1 className='group-hover:ml-3 mt-1 ml-1 transition-all'>مشاهده همه</h1>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-8">
@@ -42,20 +51,20 @@ export default function ProductsHome() {
                 </div>
                 <div className='grid grid-cols-2 md:grid-cols-3  gap-8 mt-5'>
                     {currentItems.map(item => (
-                        <div key={item[1].id} className='product-card shadow-lg transition-all  hover:scale-105 bg-white md:bg-[#c9cbce] p-4 flex justify-center align-middle rounded-xl hover:bg-[#fff] hover:shadow-2xl'>
-                            <Link  to={`/product/${item[1].id}`}>
+                        <div key={item.id} className='product-card shadow-lg transition-all  hover:scale-105 bg-white md:bg-[#c9cbce] p-4 flex justify-center align-middle rounded-xl hover:bg-[#fff] hover:shadow-2xl'>
+                            <Link to={`/product/${item.id}`}>
                                 <div className='h-52 w-32 md:h-72 md:w-52 p-5 flex flex-col justify-between transition-all  bg-[#fff]  rounded-xl'>
                                     <div className='flex justify-center items-center'>
-                                        <img src={item[1].img} className='max-w-full rounded-lg shadow-md ' alt={item[1].title} />
+                                        <img src={item.img} className='max-w-full rounded-lg shadow-md ' alt={item.title} />
                                     </div>
                                     <div className='h-full w-full flex flex-col justify-around align-middle'>
-                                        <span className='text-sm md:text-base text-center overflow-hidden font-semibold text-gray-700 mt-4'>{item[1].title}</span>
+                                        <span className='text-sm md:text-base text-center overflow-hidden font-semibold text-gray-700 mt-4'>{item.title}</span>
                                         <div className='flex flex-row justify-between align-middle'>
-                                                <span className='hidden md:inline-block font-DanaDemiBold text-sm md:text-base text-gray-800'>قیمت:</span>
-                                                <span className='font-DanaDemiBold text-sm md:text-base text-gray-800'>{item[1].price} تومان</span>
+                                            <span className='hidden md:inline-block font-DanaDemiBold text-sm md:text-base text-gray-800'>قیمت:</span>
+                                            <span className='font-DanaDemiBold text-sm md:text-base text-gray-800'>{item.price} تومان</span>
                                         </div>
                                         <div className='flex  justify-end'>
-                                            <Stars rating={item[1].score}/>
+                                            <Stars rating={item.score} />
                                         </div>
                                     </div>
                                 </div>

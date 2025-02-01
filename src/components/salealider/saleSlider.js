@@ -6,6 +6,7 @@ import 'swiper/css/pagination';
 import { FreeMode, Pagination } from 'swiper/modules';
 import { useMediaQuery } from 'react-responsive';
 import { Link } from 'react-router-dom';
+import supabase from '../../supabase-client';
 
 export default function App() {
   const isDesktop = useMediaQuery({ minWidth: 1024 });
@@ -13,19 +14,25 @@ export default function App() {
   const [allProductsOff, setAllProductsOff] = useState([]);
 
 
-  useEffect(() => {
-    fetch('http://localhost:4000/products')
-      .then(res => res.json())
-      .then(data => {
-        let Data=Object.entries(data)
-        let fainalData=Data.filter((item)=>{
-          return item[1].discount>0
-        })
-        setAllProductsOff(fainalData.slice(0,15))
-      })
+  useEffect( () => {
+    getProducts()
+
   }, [])
 
+  const getProducts=async()=>{
+    const { data, error } = await supabase.from("products").select("*");
+    if (error) {
+      console.log("Error fetching", error);
+    } else {
+      let fainalData = data.filter((item) => {
+        return item.discount > 0
+      })
+      setAllProductsOff(fainalData.slice(0, 15))
+      console.log(data);
 
+    }
+
+  }
 
   return (
     <>
@@ -83,9 +90,6 @@ export default function App() {
                 <span className='font-MorabbaBold text-sm md:text-xl'>پیشنهاد شگفت انگیز</span>
                 <span className='font-MorabbaMedium text-sm md:text-base'>فقط به مدت 7 روز</span>
                 <h1 className='flex justify-center align-middle'>
-                  {/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-24">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="m8.99 14.993 6-6m6 3.001c0 1.268-.63 2.39-1.593 3.069a3.746 3.746 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043 3.745 3.745 0 0 1-3.068 1.593c-1.268 0-2.39-.63-3.068-1.593a3.745 3.745 0 0 1-3.296-1.043 3.746 3.746 0 0 1-1.043-3.297 3.746 3.746 0 0 1-1.593-3.068c0-1.268.63-2.39 1.593-3.068a3.746 3.746 0 0 1 1.043-3.297 3.745 3.745 0 0 1 3.296-1.042 3.745 3.745 0 0 1 3.068-1.594c1.268 0 2.39.63 3.068 1.593a3.745 3.745 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.297 3.746 3.746 0 0 1 1.593 3.068ZM9.74 9.743h.008v.007H9.74v-.007Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm4.125 4.5h.008v.008h-.008v-.008Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
-                  </svg> */}
                   <img src="./images/box.webp" alt="" />
                 </h1>
 
@@ -95,23 +99,23 @@ export default function App() {
 
 
           {allProductsOff.map((item) => (
-            <SwiperSlide key={item[1].id}>
-              <Link  to={`/product/${item[1].id}`}>
+            <SwiperSlide key={item.id}>
+              <Link to={`/product/${item.id}`}>
                 <div className='h-52 w-32 md:h-72 md:w-52 p-5 flex flex-col justify-between bg-white rounded-lg'>
                   <div>
-                    <img src={item[1].img} className='' alt={item[1].title} style={{ maxWidth: '100%' }} />
+                    <img src={item.img} className='' alt={item.title} style={{ maxWidth: '100%' }} />
                   </div>
                   <div className='h-full w-full flex flex-col justify-around align-middle'>
-                    <span className='text-sm md:text-base overflow-hidden '>{item[1].title}</span>
+                    <span className='text-sm md:text-base overflow-hidden '>{item.title}</span>
                     <div className='flex flex-row-reverse  justify-around gap-3 '>
 
                       <div className='flex flex-col'>
-                        <span className='font-DanaDemiBold text-sm md:text-base  '>{item[1].price}تومان</span>
+                        <span className='font-DanaDemiBold text-sm md:text-base  '>{item.price}تومان</span>
 
-                        <span className='ml-5 font-DanaDemiBold text-sm  line-through opacity-50'>{item[1].price+(item[1].price*(item[1].discount/100))}</span>
+                        <span className='ml-5 font-DanaDemiBold text-sm  line-through opacity-50'>{item.price + (item.price * (item.discount / 100))}</span>
                       </div>
                       <div className='w-12 h-full'>
-                        <span className=' hidden md:flex font-DanaDemiBold justify-center align-bottom   text-sm md:text-base pt-1 bg-[#da2f4e]  rounded-xl '>{item[1].discount}%</span>
+                        <span className=' hidden md:flex font-DanaDemiBold justify-center align-bottom   text-sm md:text-base pt-1 bg-[#da2f4e]  rounded-xl '>{item.discount}%</span>
                       </div>
                     </div>
                   </div>

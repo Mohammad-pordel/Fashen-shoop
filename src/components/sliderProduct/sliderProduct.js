@@ -28,8 +28,8 @@ export default function SliderProduct({ allimage }) {
                     className="mySwiper2 rounded-lg shadow-lg "
                 >
                     {
-                        allimage.map((item) => (
-                            <SwiperSlide>
+                        allimage.map((item,index) => (
+                            <SwiperSlide key={index}>
                                 <img className="object-cover w-full h-full rounded-lg" src={`./../${item.img}`} alt="product " />
                             </SwiperSlide>
 
